@@ -1,5 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
 .header{
+    
     border:2px solid red;
     min-width: max-content;
     min-height: 300px;
@@ -8,13 +9,15 @@
     align-items: center;
     border-radius: 10px;
     background-image: url("./images/snow_winter_trees.jpg");
+    font-family: "Mountains of christmas", sans-serif;
+    font-size: 30px;
     
 }
 .headerimages{
     border:2px solid red;
     border-radius: 10px;
     min-width: 1225px;
-    max-height: 50px;
+    max-height: 75px;
     min-height: 50px;
     display: flex;
     justify-content: center;
@@ -25,4 +28,8 @@
 #images{
     max-width: 200px;
     max-height: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius:10px;
 }
